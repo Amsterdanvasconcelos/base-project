@@ -1,4 +1,24 @@
-img {
-    display: block;
-    max-width: 100%;
+@use '../util/' as *;
+
+html {
+    background-color: #ededed;
+    @media (prefers-color-scheme: dark) {
+        background-color: #100f0f;
+    }
+}
+
+body {
+    margin: 0 auto;
+    max-width: var(--width-full);
+}
+
+p {
+    font-size: rem(12px);
+
+    @include breakpoint(medium) {
+        font-size: rem(16px);
+    }
+    @include breakpoint(large) {
+        font-size: rem(18px);
+    }
 }

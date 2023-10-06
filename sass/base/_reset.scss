@@ -5,3 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
