@@ -1,0 +1,20 @@
+:root {
+    --clr-facebook: hsl(221 44% 41%);
+    --clr-twitter: hsl(196 100% 46%);
+    --clr-linkedin: hsl(201 100% 35%);
+    --clr-youtube: hsl(0 74% 46%);
+    --clr-instagram: hsl(349 75% 57%);
+    --clr-github: hsl(0 0% 20%);
+    --clr-text: var(--clr-github);
+ 
+    // @see https://systemfontstack.com/
+    --ff-sans-serif: -apple-system, blinkmacsystemfont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, ubuntu, roboto, noto, arial,
+    sans-serif;
+
+    --ff-serif: times new roman, droid serif, times, source serif pro,
+    serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+
+    --ff-mono: menlo, consolas, monaco, liberation mono, lucida console,
+    monospace;
+}

@@ -1,0 +1,17 @@
+@use '../util/' as *;
+
+body {
+    color: var(--clr-text);
+    font-family: var(--ff-sans-serif);
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+    hyphens: auto;
+    margin-top: 0;
+    overflow-wrap: break-word;
+}
